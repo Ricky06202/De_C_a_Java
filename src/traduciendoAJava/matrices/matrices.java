@@ -3,9 +3,12 @@ package traduciendoAJava.matrices;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * matrices
- */
+//
+// ──────────────────────────────────────────────────────────────────────────────────────── I ──────────
+//   :::::: O P E R A C I O N E S   C O N   M A T R I C E S : :  :   :    :     :        :          :
+// ──────────────────────────────────────────────────────────────────────────────────────────────────
+//
+
 public class matrices {
     static Scanner leer = new Scanner(System.in);
 
@@ -61,6 +64,9 @@ public class matrices {
             mostrarMatriz(resultado);
         }
     }
+//
+// ─── MOSTRAR LA MATRIZ ──────────────────────────────────────────────────────────
+//
 
     public static void mostrarMatriz(int[][] matriz) {
         for (int i = 0; i < matriz.length; i++) {
@@ -71,7 +77,10 @@ public class matrices {
         }
         System.out.println();
     }
-
+//
+// ─── SUMAR LAS MATRICES ─────────────────────────────────────────────────────────
+//
+    //* Tambien se pudo hacer solo una funcion para sumar y restar las matrices
     public static int[][] sumar(int[][] matriz1, int[][] matriz2) {
         int[][] suma = matriz1;
         for (int i = 0; i < suma.length; i++) {
@@ -81,7 +90,10 @@ public class matrices {
         }
         return suma;
     }
-
+//
+// ─── RESTAR LAS MATRICES ────────────────────────────────────────────────────────
+//
+    //! error catastrofico
     public static int[][] restar(int[][] matriz1, int[][] matriz2) {
         int[][] resta = matriz1;
         for (int i = 0; i < resta.length; i++) {
@@ -91,6 +103,9 @@ public class matrices {
         }
         return resta;
     }
+//
+// ─── MULTIPLICAR LAS MATRICES ───────────────────────────────────────────────────
+//
 
     public static int[][] multiplicar(int[][] matriz1, int[][] matriz2) {
         int[][] multiplicacion = new int[matriz1.length][matriz2[0].length];
@@ -103,6 +118,9 @@ public class matrices {
         }
         return multiplicacion;
     }
+//
+// ─── MOSTRAR EL MENU ────────────────────────────────────────────────────────────
+//
 
     public static void menu() {
         System.out.println("Elija una de las siguientes opciones:");
@@ -111,6 +129,9 @@ public class matrices {
         System.out.println("3) Multiplicar Matrices");
         System.out.println("4) SALIR");
     }
+//
+// ─── ALEATORIZAR LOS VALORES DE LA MATRIZ ───────────────────────────────────────
+//
 
     public static void aleatorizarValoresMatriz(int[][] matriz) {
         Random aleatorio = new Random();
@@ -120,6 +141,9 @@ public class matrices {
             }
         }
     }
+//
+// ─── PEDIR LAS DIMENSIONES DE LA MATRIZ ─────────────────────────────────────────
+//
 
     public static int[] pedirDimensionesMatriz(String texto) {
         System.out.printf("Ingrese El Ancho de la %s Matriz: ", texto);
