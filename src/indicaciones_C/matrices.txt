@@ -1,0 +1,4 @@
+hay q hacer es un programa q te permita crear matrices de cualquier tamaño
+q rellene la matriz con nuemeros aleatoreos
+y q te permita sumar restar y multiplicar
+ANOTACION: aplique toda la creatividad que quiera, se evaluara tambien
