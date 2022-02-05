@@ -1,0 +1,24 @@
+Crear una clase llamada Carton
+esta clase carton va a tener un metodo llamado encontrarNumeroEnCarton
+esa funcion va a encontrar el numero solicitado por parametro y lo va a tachar del carton
+si el numero no se encuentra, entonces no haga nada
+hacer otra funcion q se llame MostrarCarton
+q te permita ver el carton
+los cartones deben de inicializarse en el metodo constructor de la clase
+con numeros aleatorios
+la clase Carton debe tener un atributo nombre en el cual se ira almacenando el nombre del propietario de cada carton
+y por ultimo debe hacer una funcion q se llame VerificarVictoria
+en esta debera verificar si se cumplen las condiciones para ganar
+y debera de devolver true o false
+dependiendo
+Notita: recuerde q estamos haciendo la clase  Carton  para poder despues crear varios objetos de tipo carton
+Recomendacion: hacer un ArrayList con los cartones para poder ir agregandolos
+ahora si xd Indicaciones del Programa
+el metodo main debe ir dentro de la clase Carton
+tiene q hacer q el bingo funcione con cualquier cantidad de personas
+cada persona solo puede tener 1 carton
+el metodo para sacar los numeros puede ser por teclado o aleatorios
+como prefieras
+aclaracion: los numeros sacados son lo q despues se tachan
+ah y no se olvide de q tiene q crear la carpeta bingo adentro de la carpeta traduciendoAJava
+y el archivo se debe llamar bingo.java
