@@ -1,4 +1,13 @@
 {
     "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin"
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\ricar\\Documents\\Programacion\\Java\\Experimentando\\Experimentando.jar"
+        ],
+        "exclude": [
+            "lib/Ricardo Sanjur.jar"
+        ]
+    }
 }

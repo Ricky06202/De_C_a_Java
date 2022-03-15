@@ -2,6 +2,7 @@ package traduciendoAJava.bingo;
 
 import java.util.Scanner;
 
+
 /**
  * bingo
  */
@@ -15,6 +16,6 @@ public class bingo {
             suma += Integer.parseInt(num);
         }
         System.out.println(suma);
-
+        in.close();
     }
 }
