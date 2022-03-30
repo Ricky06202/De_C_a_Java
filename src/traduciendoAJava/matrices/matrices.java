@@ -27,6 +27,8 @@ public class matrices {
             int[][] matriz2 = {};
             boolean correcto = false;
             while (!correcto) {
+                if(opcion == 4)
+                    System.exit(0);
                 dimensiones = pedirDimensionesMatriz("Primera");
                 matriz1 = new int[dimensiones[0]][dimensiones[1]];
                 dimensiones = pedirDimensionesMatriz("Segunda");
@@ -38,8 +40,6 @@ public class matrices {
                     case 3:
                         correcto = matriz1[0].length == matriz2.length;
                         break;
-                    default:
-                        System.exit(0);
                 }
                 if (!correcto) {
                     System.out.println("Las dimensiones son incorrectas");
