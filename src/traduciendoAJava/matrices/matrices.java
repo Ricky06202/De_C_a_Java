@@ -34,7 +34,7 @@ public class matrices {
                 dimensiones = pedirDimensionesMatriz("Segunda");
                 matriz2 = new int[dimensiones[0]][dimensiones[1]];
                 switch (opcion) {
-                    case 1, 2:
+                    case 1: case 2:
                         correcto = matriz1.length == matriz2.length && matriz1[0].length == matriz2[0].length;
                         break;
                     case 3:
